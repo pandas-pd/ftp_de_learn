@@ -1,0 +1,9 @@
+numpy==2.3.2
+pandas==2.3.2
+ipykernel==6.30.1
+ImageIO==2.37.2
+matplotlib==3.10.8
+scikit-learn==1.8.0
+torchsummary==1.5.1
+wandb==0.25.1
+nbformat==5.10.4
