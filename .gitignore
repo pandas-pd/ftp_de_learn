@@ -1,8 +1,8 @@
 .DS_Store
-MPW_01/icosimal_img_class_03/
-MPW_01/scraped_uniformed/
 env/
 .env/
+MPW_01/icosimal_img_class_03/
+MPW_01/scraped_uniformed/
 MPW_01/wandb/
 MPW_01/icosimal_img_class_03.zip
 MPW_01/scraped_uniformed.zip
