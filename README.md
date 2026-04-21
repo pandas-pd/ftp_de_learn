@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ```shell
-py -m ipykernel install --user --name=env --display-name "Python (env nlp)"
+py -m ipykernel install --user --name=.env --display-name "Python (env nlp)"
 ```
 
 #### Setup env and jupyter kernel (Linux / Mac):

@@ -1,23 +1,23 @@
 # Mandatory Practical Work 02 – 20/04/
 
-# Objective overview
+## Objective overview
 
-Main objectives
-- [ ] a) Understand the concepts of backpropagation and of forward and backward passes in the context of a computational graph.
-- [ ] b) Implement new nodes in a computational graph.
-- [ ] c) Implement a training loop with stochastic and batch approaches
+### Main objectives:
+- [x] a) Understand the concepts of backpropagation and of forward and backward passes in the context of a computational graph.
+- [x] b) Implement new nodes in a computational graph.
+- [x] c) Implement a training loop with stochastic and batch approaches
 - [ ] d) Reimplement and experiment with different optimization algorithms and compare their performance.
 
-Optional Objectives (chosen)
+### Optional Objectives (chosen):
 - [ ] Implement an early stopping strategy in your training loop
 
-Optional Objectives (available)
+### Optional Objectives (available):
 - [ ] Investigate the use of 2nd order model instead of the simple linear model
 - [ ] Re-implement and experiment with more advanced optimizers such as RMSProp, Nesterov or Adam
 - [ ] Implement a Learning Rate Decay on Plateaustrategy in the training loop
 - [ ] Normalize the input data with a zero norm approach and compare to your experiments without normalization
 
-
+<br>
 # Computational graphs and optimizers
 
 Deadline: Monday May 18 ;Format: pdf or ipynb. Clearly state the group members’name
