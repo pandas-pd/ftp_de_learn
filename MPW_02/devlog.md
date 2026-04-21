@@ -25,3 +25,6 @@ Worked on cg-linear-regression-stud.ipynb:
     - 4.2: Implemented update rules for theta 0 and 1 in learning loop. Wrote some findings
     - 4.2: Added the previous metrics form linear regression as comparsion
     - 4.3: Implemented batch gradient descent with random and sequential sampling
+- Chapter 5:
+    - 5.1: Implemented different learning rates for theta 0 and 1
+    - 5.2: Implemented momentum (fixied a bug, where i used the same t-1 momentum which cause strange behaviour)
