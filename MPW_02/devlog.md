@@ -41,16 +41,13 @@ Getting into the topic:
 
 - Work through notebook for better understanding
 - Extend notebook with optional tasks (tbd, once i know more)
+- Choice: 2nd Order Polynomial Regression Model
 
 ...
 
-Log (Commit bf61ae9):
+Log
 
 - Right before chapter 5, there were some observations questions missing, I filled them in.
 - At the end of chapter 5, added some more observations on training with larger amounts of epochs.
-
-...
-
-Log (Commit ------):
-
--
+- Chapter 6
+    - Started with setup for 2nd order model, included formula and CompGraph Visualisation.
