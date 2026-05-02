@@ -44,7 +44,13 @@ Getting into the topic:
 
 ...
 
-Log:
+Log (Commit bf61ae9):
 
 - Right before chapter 5, there were some observations questions missing, I filled them in.
 - At the end of chapter 5, added some more observations on training with larger amounts of epochs.
+
+...
+
+Log (Commit ------):
+
+-
