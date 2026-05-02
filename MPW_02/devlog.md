@@ -51,3 +51,5 @@ Log
 - At the end of chapter 5, added some more observations on training with larger amounts of epochs.
 - Chapter 6
     - Started with setup for 2nd order model, included formula and CompGraph Visualisation.
+    - Started training code, ran into some errors with exploding gradients
+    - Started with gradient clipping implementation, does not work yet, coming back to it tomorrow
