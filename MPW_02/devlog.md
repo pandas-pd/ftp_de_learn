@@ -53,3 +53,12 @@ Log
     - Started with setup for 2nd order model, included formula and CompGraph Visualisation.
     - Started training code, ran into some errors with exploding gradients
     - Started with gradient clipping implementation, does not work yet, coming back to it tomorrow
+
+## 2026-05-03
+
+> Maurizio
+
+Coming back to fix the gradients.
+
+- Implement gradient clipping properly this time (applied per-batch instead of per-parameter)
+- Experimented with varying LRs and batch sizes for additional improvements
