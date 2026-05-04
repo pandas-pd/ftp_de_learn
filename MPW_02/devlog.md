@@ -62,3 +62,13 @@ Coming back to fix the gradients.
 
 - Implement gradient clipping properly this time (applied per-batch instead of per-parameter)
 - Experimented with varying LRs and batch sizes for additional improvements
+
+## 2026-05-04
+
+> Maurizio
+
+May the fourth be with you.
+
+I will use the power of the force to work on another optional objective for now.
+
+- Implemented "Early Stopping" strategy for batch-based linear model learning
