@@ -72,3 +72,9 @@ May the fourth be with you.
 I will use the power of the force to work on another optional objective for now.
 
 - Implemented "Early Stopping" strategy for batch-based linear model learning
+
+## 2026-05-07
+
+> Maurizio
+
+Implemented "learning rate decay on plateau" strategy.
