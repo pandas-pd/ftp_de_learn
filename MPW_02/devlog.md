@@ -77,4 +77,12 @@ I will use the power of the force to work on another optional objective for now.
 
 > Maurizio
 
-Implemented "learning rate decay on plateau" strategy.
+- Implemented "learning rate decay on plateau" strategy.
+- Started with "z-score input normalisation" training strategy.
+- Input Normalisation has some issues still.
+
+## 2026-05-08
+
+> Maurizio
+
+- Fixed Input Normalisation issues and plotting of results.
