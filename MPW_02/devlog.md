@@ -86,3 +86,14 @@ I will use the power of the force to work on another optional objective for now.
 > Maurizio
 
 - Fixed Input Normalisation issues and plotting of results.
+
+## 2026-05-10
+> Joël
+
+- Implemented RMS Prop optimizer
+
+
+## 2026-05-11
+> Joël
+
+- Implemented Adam optimizer
