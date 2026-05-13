@@ -3,27 +3,24 @@
 ## Objective overview
 
 ### Main objectives:
+
 - [x] a) Understand the concepts of backpropagation and of forward and backward passes in the context of a computational graph.
 - [x] b) Implement new nodes in a computational graph.
 - [x] c) Implement a training loop with stochastic and batch approaches
 - [x] d) Reimplement and experiment with different optimization algorithms and compare their performance.
 
 ### Optional Objectives (chosen):
-tbd
 
-### Optional Objectives (available):
-- [ ] Investigate the use of 2nd order model instead of the simple linear model
-- [ ] Re-implement and experiment with more advanced optimizers such as RMSProp, Nesterov or Adam
-- [ ] Implement a Learning Rate Decay on Plateaustrategy in the training loop
-- [ ] Normalize the input data with a zero norm approach and compare to your experiments without normalization
-- [ ] Implement an early stopping strategy in your training loop
+- [x] Investigate the use of 2nd order model instead of the simple linear model
+- [x] Re-implement and experiment with more advanced optimizers such as RMSProp, Nesterov or Adam
+- [x] Implement a Learning Rate Decay on Plateaustrategy in the training loop
+- [x] Normalize the input data with a zero norm approach and compare to your experiments without normalization
+- [x] Implement an early stopping strategy in your training loop
 
-<br>
 # Computational graphs and optimizers
 
 Deadline: Monday May 18 ;Format: pdf or ipynb. Clearly state the group members’name
 andsurnameat the beginning of the report.
-
 
 ## 1 Overview
 
@@ -32,7 +29,6 @@ dents. The goal is to apply the concepts seen in the lectures and practical sess
 document your experimentation results in a report. The report should be clear, concise, and
 well-structured, including all relevant details about your experiments such as the hyperpara-
 meters you used, the results you obtained, and any insights or conclusions you can draw.
-
 
 ## 2 Context
 
@@ -58,7 +54,7 @@ Figure 1– Simple graph computingf= (x 1 x 2 )^2. The implementation uses opera
 (red) and three types of value nodes storing scalar float values : input (yellow), intermediary
 (green) and output (blue).
 
-``` python
+```python
 # first create all ValueNode objects
 x1 = ValueNode()
 x2 = ValueNode()
@@ -77,7 +73,6 @@ ValueNode objects
 15 cg.forward([2.0, 4.0])
 16 print(f"f = {f.v}") # should print 64.
 ```
-
 
 Listing 1 – Simple computational graph example
 
@@ -108,14 +103,12 @@ The graph version of Eq. 1 is illustrated on Figure 2.
 
 Figure 2– Computational graph corresponding to the linear regression
 
-
 ## 3 Objectives
 
 It is now time to move to the Python codecdgnodesand notebookscg-linear-regressopm-stud.ipynb
 notebook that you need to complete.
 
 Main objectives
-
 
 a) Understand the concepts of backpropagation and of forward and backward passes in the
 context of a computational graph.
