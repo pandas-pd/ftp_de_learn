@@ -7,3 +7,10 @@ A development log note for keeping track of steps & milestones during developmen
 > Maurizio
 
 Initial setup and first steps with the provided exercise.
+
+First and foremost trying to get the full picture of the actual assignment.
+
+Implementation of the model (a) as described in the paper [Show and Tell](ShowAndTell_2015.pdf):
+
+- Pretrained CNN-based Encoder: Encoding images into internal representation
+- LSTM-based Decoder / Generator: Read internal image representation and infer/generate caption
