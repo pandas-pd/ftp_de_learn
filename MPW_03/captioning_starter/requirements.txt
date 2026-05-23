@@ -4,6 +4,7 @@ matplotlib
 Pillow
 torch>=2.6
 torchvision>=0.21
+torchtext
 tqdm
 nltk
 ipykernel

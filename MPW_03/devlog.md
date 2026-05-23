@@ -14,3 +14,16 @@ Implementation of the model (a) as described in the paper [Show and Tell](ShowAn
 
 - Pretrained CNN-based Encoder: Encoding images into internal representation
 - LSTM-based Decoder / Generator: Read internal image representation and infer/generate caption
+
+## 2026-05-23
+
+> Joël 
+
+New implementations:
+- Bleu1 and Bleu2 as function
+- Plot function, building upon thre reuseable training loop (see below)
+
+Refactor and changes on existing code:
+- Moved training loop to reuseable function
+- Added loss history for train and test
+- Added bleu history
