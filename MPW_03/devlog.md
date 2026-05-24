@@ -17,7 +17,7 @@ Implementation of the model (a) as described in the paper [Show and Tell](ShowAn
 
 ## 2026-05-23
 
-> Joël 
+> Joël
 
 New implementations:
 - Bleu1 and Bleu2 as function
@@ -27,3 +27,14 @@ Refactor and changes on existing code:
 - Moved training loop to reuseable function
 - Added loss history for train and test
 - Added bleu history
+
+## 2026-05-24
+
+> Joël
+
+New implementations:
+- Sample generator for visual sanity check of model
+
+Fixes and refactor:
+- Fixed some bugs in the training loop
+- Minor changes to improve code
