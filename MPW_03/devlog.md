@@ -38,3 +38,6 @@ New implementations:
 Fixes and refactor:
 - Fixed some bugs in the training loop
 - Minor changes to improve code
+
+> Joël
+Stuff
